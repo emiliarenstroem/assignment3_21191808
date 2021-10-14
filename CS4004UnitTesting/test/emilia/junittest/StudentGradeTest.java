@@ -1,4 +1,4 @@
-package assignment.unittest;
+package emilia.junittest;
 
 import static org.junit.jupiter.api.Assertions.*;
 
@@ -11,9 +11,7 @@ class StudentGradeTest {
 		StudentGrade studentgrade = new StudentGrade();
 		int mark = 95;
 		char actual = studentgrade.convertMark(mark);
-		
 		char expected = 'A';
-		
 		assertEquals(expected, actual, "Grade is not correct");
 	}
 	
@@ -22,9 +20,7 @@ class StudentGradeTest {
 		StudentGrade studentgrade = new StudentGrade();
 		int mark = 78;
 		char actual = studentgrade.convertMark(mark);
-		
 		char expected = 'B';
-		
 		assertEquals(expected, actual, "Grade is not correct");
 	}
 	
@@ -33,9 +29,7 @@ class StudentGradeTest {
 		StudentGrade studentgrade = new StudentGrade();
 		int mark = 55;
 		char actual = studentgrade.convertMark(mark);
-		
 		char expected = 'C';
-		
 		assertEquals(expected, actual, "Grade is not correct");
 	}
 	
@@ -44,9 +38,7 @@ class StudentGradeTest {
 		StudentGrade studentgrade = new StudentGrade();
 		int mark = 40;
 		char actual = studentgrade.convertMark(mark);
-		
 		char expected = 'D';
-		
 		assertEquals(expected, actual, "Grade is not correct");
 	}
 	
@@ -55,9 +47,7 @@ class StudentGradeTest {
 		StudentGrade studentgrade = new StudentGrade();
 		int mark = 34;
 		char actual = studentgrade.convertMark(mark);
-		
 		char expected = 'E';
-		
 		assertEquals(expected, actual, "Grade is not correct");
 	}
 	
@@ -66,9 +56,7 @@ class StudentGradeTest {
 		StudentGrade studentgrade = new StudentGrade();
 		int mark = 4;
 		char actual = studentgrade.convertMark(mark);
-		
 		char expected = 'F';
-		
 		assertEquals(expected, actual, "Grade is not correct");
 	}
 }

@@ -1,8 +1,8 @@
-package assignment.unittest;
+package emilia.junittest;
 
 public class StudentGrade {
 	public char convertMark(int mark) {
-		if (mark >= 85) {
+		if (mark <= 100 && mark >= 85) {
 			return 'A';
 		} else if (mark < 85 && mark >= 70) {
 			return 'B';
@@ -12,7 +12,7 @@ public class StudentGrade {
 			return 'D';
 		} else if (mark < 40 && mark >= 25) {
 			return 'E';
-		} else if (mark < 25) {
+		} else if (mark < 25 && mark >= 0) {
 			return 'F';
 		}
 		return ' ';
